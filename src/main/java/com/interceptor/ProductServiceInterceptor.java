@@ -1,4 +1,8 @@
 package com.interceptor;
 
-public class ProductServiceInterceptor {
+import org.springframework.stereotype.Component;
+import org.springframework.web.servlet.HandlerInterceptor;
+
+@Component
+public class ProductServiceInterceptor implements HandlerInterceptor {
 }
